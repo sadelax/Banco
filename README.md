@@ -13,10 +13,10 @@ El proyecto incluye las siguientes dependencias necesarias:
 - SQLite JDBC 3.41.2.1
 Estas dependencias se incluyen en el archivo pom.xml, por lo que se deben descargar automáticamente al construir el proyecto con Maven.
 
-Ejecución
+## Ejecución
 Para ejecutar la aplicación, simplemente ejecuta la clase "Main.java" ubicada en la ruta src/main/java/com/bank/Main.java. Esto iniciará la interfaz gráfica de usuario basada en JFrame.
 
-Funcionalidades
+## Funcionalidades
 La aplicación ofrece las siguientes funcionalidades básicas:
 
 - Agregar un nuevo cliente con información personal y de contacto
