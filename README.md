@@ -11,6 +11,7 @@ El proyecto incluye las siguientes dependencias necesarias:
 - Hibernate Core 5.6.15.Final
 - MySQL Connector/J 8.0.32
 - SQLite JDBC 3.41.2.1
+
 Estas dependencias se incluyen en el archivo pom.xml, por lo que se deben descargar automáticamente al construir el proyecto con Maven.
 
 ## Ejecución
