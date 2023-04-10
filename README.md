@@ -1,5 +1,5 @@
 # Descripción del proyecto
-Aplicación de escritorio que simula las funcionalidades básicas de un banco, como agregar clientes, verificar extractos, realizar transacciones, etc. La aplicación se basa en una base de datos y utiliza el framework Spring en la capa de persistencia para manejar la interacción con la base de datos. `
+Aplicación de escritorio que simula las funcionalidades básicas de un banco, como agregar clientes, verificar extractos, realizar transacciones, etc. La aplicación se basa en una base de datos y utiliza el framework Spring en la capa de persistencia para manejar la interacción con la base de datos.
 
 ## Dependencias
 El proyecto incluye las siguientes dependencias necesarias:
