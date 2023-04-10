@@ -8,7 +8,7 @@
   <artifactId>P20_Banco_SpringData</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>P19_Banco_Spring</name>
+  <name>P20_Banco</name>
   <description>La aplicación que usa la base de datos 50_examen_banco con Spring Data.</description>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
@@ -94,7 +94,10 @@
         </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.8.0</version>
+          <version>3.8.1</version>
+          <configuration>
+          <release>17</release>
+        </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
