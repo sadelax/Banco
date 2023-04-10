@@ -17,9 +17,11 @@ Estas dependencias se incluyen en el archivo pom.xml, por lo que se deben descar
 ## Ejecución
 Para ejecutar la aplicación, simplemente ejecuta la clase "Main.java" ubicada en la ruta src/main/java/com/bank/Main.java. Esto iniciará la interfaz gráfica de usuario basada en JFrame.
 
+También es posible ejecutar esta aplicación en modo Desarrollo o modo Producción. Para ello, ejecutar con -Dspring.profiles.active=produccion/desarrollo.
+
 Es importante tener en cuenta que para utilizar esta aplicación es necesario generar una base de datos previamente. Se incluye un script para la creación de la base de datos en el archivo "50_Banco.sql". Para generar la base de datos, se recomienda utilizar una herramienta como MySQL Workbench.
 
-Una vez que la base de datos ha sido creada, es necesario configurar los datos de acceso en el archivo "banco.properties" ubicado en la ruta "src/main/resources". En este archivo se encuentran las propiedades necesarias para establecer la conexión con la base de datos, como el nombre de usuario, la contraseña y la URL de la base de datos.
+Una vez que la base de datos ha sido creada, es necesario configurar los datos de acceso en el archivo "banco.properties" ubicado en la ruta "src/main/java". En este archivo se encuentran las propiedades necesarias para establecer la conexión con la base de datos, como el nombre de usuario, la contraseña y la URL de la base de datos.
 
 ## Funcionalidades
 La aplicación ofrece las siguientes funcionalidades básicas:
