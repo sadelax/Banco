@@ -1,4 +1,4 @@
-# Proyecto Java que implementa Spring en la capa de persistencia para un banco
+# Descripción del proyecto
 Este proyecto es una aplicación de escritorio que simula las funcionalidades básicas de un banco, como agregar clientes, verificar extractos, realizar transacciones, etc. La aplicación se basa en una base de datos y utiliza el framework Spring en la capa de persistencia para manejar la interacción con la base de datos. `
 
 ## Dependencias
